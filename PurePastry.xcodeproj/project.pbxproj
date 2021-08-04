@@ -11,8 +11,8 @@
 		D04504CB26BAFB01004150EC /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504CA26BAFB01004150EC /* Tests_macOS.swift */; };
 		D04504CD26BAFB01004150EC /* PurePastryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A426BAFAFF004150EC /* PurePastryApp.swift */; };
 		D04504CE26BAFB01004150EC /* PurePastryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A426BAFAFF004150EC /* PurePastryApp.swift */; };
-		D04504CF26BAFB01004150EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A526BAFAFF004150EC /* ContentView.swift */; };
-		D04504D026BAFB01004150EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A526BAFAFF004150EC /* ContentView.swift */; };
+		D04504CF26BAFB01004150EC /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A526BAFAFF004150EC /* StartView.swift */; };
+		D04504D026BAFB01004150EC /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504A526BAFAFF004150EC /* StartView.swift */; };
 		D04504D126BAFB01004150EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04504A626BAFB01004150EC /* Assets.xcassets */; };
 		D04504D226BAFB01004150EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04504A626BAFB01004150EC /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -36,7 +36,7 @@
 
 /* Begin PBXFileReference section */
 		D04504A426BAFAFF004150EC /* PurePastryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurePastryApp.swift; sourceTree = "<group>"; };
-		D04504A526BAFAFF004150EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D04504A526BAFAFF004150EC /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		D04504A626BAFB01004150EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D04504AB26BAFB01004150EC /* PurePastry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PurePastry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D04504AE26BAFB01004150EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				D04504A426BAFAFF004150EC /* PurePastryApp.swift */,
-				D04504A526BAFAFF004150EC /* ContentView.swift */,
+				D04504A526BAFAFF004150EC /* StartView.swift */,
 				D04504A626BAFB01004150EC /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -308,7 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04504CF26BAFB01004150EC /* ContentView.swift in Sources */,
+				D04504CF26BAFB01004150EC /* StartView.swift in Sources */,
 				D04504CD26BAFB01004150EC /* PurePastryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -317,7 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D04504D026BAFB01004150EC /* ContentView.swift in Sources */,
+				D04504D026BAFB01004150EC /* StartView.swift in Sources */,
 				D04504CE26BAFB01004150EC /* PurePastryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

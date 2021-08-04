@@ -11,7 +11,7 @@ import SwiftUI
 struct PurePastryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
     }
 }
