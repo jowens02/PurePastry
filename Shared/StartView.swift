@@ -5,7 +5,22 @@
 //  Created by Jheanelle Owens on 04/08/2021.
 //
 
+import UserNotifications
 import SwiftUI
+
+struct NotificationView: View {
+    var body: some View {
+        VStack {
+            Button("Allow Notifications") {
+                
+            }
+            
+            Button("Schedule Notofications") {
+                
+            }
+        }
+    }
+}
 
 struct StartView: View {
     var body: some View {
@@ -33,9 +48,11 @@ struct StartView: View {
                     .offset(y: -60)
                 
                 NavigationLink(
-                    destination:/*@START_MENU_TOKEN@*/Text("Destination")/*@END_MENU_TOKEN@*/,
+                    destination: NotificationView(),
                     label: {
                         Text("Get Started")
+                        .bold()
+                            
                     })
             }
     }
