@@ -6,12 +6,14 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct PurePastryApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            StartView()
+            ContentView()
         }
     }
 }
