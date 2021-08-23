@@ -17,6 +17,16 @@
 		D04504D226BAFB01004150EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D04504A626BAFB01004150EC /* Assets.xcassets */; };
 		D04504E226CDB6BF004150EC /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504E126CDB6BF004150EC /* Onboarding.swift */; };
 		D04504E326CDB6BF004150EC /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04504E126CDB6BF004150EC /* Onboarding.swift */; };
+		D0A445AB26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445AA26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf */; };
+		D0A445AC26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445AA26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf */; };
+		D0A445AE26D2C61900E3B2EE /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445AD26D2C61900E3B2EE /* Metropolis-Bold.otf */; };
+		D0A445AF26D2C61900E3B2EE /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445AD26D2C61900E3B2EE /* Metropolis-Bold.otf */; };
+		D0A445B126D2C62C00E3B2EE /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */; };
+		D0A445B226D2C62C00E3B2EE /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */; };
+		D0A445BA26D418EA00E3B2EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445B926D418EA00E3B2EE /* HomeView.swift */; };
+		D0A445BB26D418EA00E3B2EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445B926D418EA00E3B2EE /* HomeView.swift */; };
+		D0A445BD26D41ADD00E3B2EE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BC26D41ADD00E3B2EE /* AboutView.swift */; };
+		D0A445BE26D41ADD00E3B2EE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BC26D41ADD00E3B2EE /* AboutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +62,11 @@
 		D04504CA26BAFB01004150EC /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		D04504CC26BAFB01004150EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D04504E126CDB6BF004150EC /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		D0A445AA26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Skriik! Electro-mechanical machine.ttf"; path = "../../skriik_electro_mechanical_machine/Skriik! Electro-mechanical machine.ttf"; sourceTree = "<group>"; };
+		D0A445AD26D2C61900E3B2EE /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Bold.otf"; path = "../../Metropolis Font family/Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Medium.otf"; path = "../../Metropolis Font family/Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		D0A445B926D418EA00E3B2EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D0A445BC26D41ADD00E3B2EE /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,13 @@
 			children = (
 				D04504A426BAFAFF004150EC /* PurePastryApp.swift */,
 				D04504A526BAFAFF004150EC /* Content.swift */,
+				D0A445B926D418EA00E3B2EE /* HomeView.swift */,
 				D04504A626BAFB01004150EC /* Assets.xcassets */,
+				D0A445BC26D41ADD00E3B2EE /* AboutView.swift */,
 				D04504E126CDB6BF004150EC /* Onboarding.swift */,
+				D0A445AA26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf */,
+				D0A445AD26D2C61900E3B2EE /* Metropolis-Bold.otf */,
+				D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -279,7 +299,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A445B126D2C62C00E3B2EE /* Metropolis-Medium.otf in Resources */,
 				D04504D126BAFB01004150EC /* Assets.xcassets in Resources */,
+				D0A445AB26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf in Resources */,
+				D0A445AE26D2C61900E3B2EE /* Metropolis-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +310,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0A445B226D2C62C00E3B2EE /* Metropolis-Medium.otf in Resources */,
 				D04504D226BAFB01004150EC /* Assets.xcassets in Resources */,
+				D0A445AC26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf in Resources */,
+				D0A445AF26D2C61900E3B2EE /* Metropolis-Bold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +339,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04504E226CDB6BF004150EC /* Onboarding.swift in Sources */,
+				D0A445BA26D418EA00E3B2EE /* HomeView.swift in Sources */,
 				D04504CF26BAFB01004150EC /* Content.swift in Sources */,
 				D04504CD26BAFB01004150EC /* PurePastryApp.swift in Sources */,
+				D0A445BD26D41ADD00E3B2EE /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,8 +351,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04504E326CDB6BF004150EC /* Onboarding.swift in Sources */,
+				D0A445BB26D418EA00E3B2EE /* HomeView.swift in Sources */,
 				D04504D026BAFB01004150EC /* Content.swift in Sources */,
 				D04504CE26BAFB01004150EC /* PurePastryApp.swift in Sources */,
+				D0A445BE26D41ADD00E3B2EE /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

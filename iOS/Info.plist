@@ -46,5 +46,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Skriik! Electro-mechanical machine.ttf</string>
+		<string>Metropolis-Bold.otf</string>
+		<string>Metropolis-Medium.otf</string>
+	</array>
 </dict>
 </plist>
