@@ -23,32 +23,32 @@ struct MenuPageView: View {
     let cost: String
     
     var body: some View {
-        ZStack {
-            Color(.brown).edgesIgnoringSafeArea(.all)
-            VStack {
-                Image(imageName)
-                    .resizable()
-                    .padding()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(width: 300, height: 300)
-        
-                Text(pastryName)
-                    .font(.system(size:25))
-                    .foregroundColor(.white)
+            ZStack {
+                Color(.brown).edgesIgnoringSafeArea(.all)
+                VStack {
+                    Image(imageName)
+                        .resizable()
+                        .padding()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300, height: 300)
+            
+                    Text(pastryName)
+                        .font(Font.custom("Skriik! Electro-mechanical machine", size: 25))
+                        .foregroundColor(.white)
+                        
+                        
+                    Text(description)
+                        .font(Font.custom("Metropolis-Bold", size: 15))
+                        .padding(.horizontal)
+                        .foregroundColor(.white)
+                        .multilineTextAlignment(.center)
                     
-                    
-                Text(description)
-                    .font(.system(size:15))
-                    .padding(.horizontal)
-                    .foregroundColor(.white)
-                    .multilineTextAlignment(.center)
-                
-                Text(cost)
-                    .font(.system(size:15))
-                    .foregroundColor(.white)
-                    .padding(.horizontal)
+                    Text(cost)
+                        .font(Font.custom("Metropolis-Medium", size: 15))
+                        .foregroundColor(.white)
+                        .padding(.horizontal)
+                }
             }
-        }
     }
 }
 
@@ -82,7 +82,7 @@ struct HomeView: View {
                     
                 }
                 .tabViewStyle(PageTabViewStyle())
-                .navigationTitle("Forever Menu").font(Font.custom("Electro", size: 18))
+                .navigationTitle("Forever Menu")
             }
             
          }
