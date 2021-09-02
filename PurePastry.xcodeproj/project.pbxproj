@@ -27,6 +27,8 @@
 		D0A445BB26D418EA00E3B2EE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445B926D418EA00E3B2EE /* HomeView.swift */; };
 		D0A445BD26D41ADD00E3B2EE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BC26D41ADD00E3B2EE /* AboutView.swift */; };
 		D0A445BE26D41ADD00E3B2EE /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BC26D41ADD00E3B2EE /* AboutView.swift */; };
+		D0A445C026E1586100E3B2EE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BF26E1586100E3B2EE /* MapView.swift */; };
+		D0A445C126E1586100E3B2EE /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A445BF26E1586100E3B2EE /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,7 @@
 		D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Metropolis-Medium.otf"; path = "../../Metropolis Font family/Metropolis-Medium.otf"; sourceTree = "<group>"; };
 		D0A445B926D418EA00E3B2EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		D0A445BC26D41ADD00E3B2EE /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		D0A445BF26E1586100E3B2EE /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,7 @@
 				D0A445AA26D2C31A00E3B2EE /* Skriik! Electro-mechanical machine.ttf */,
 				D0A445AD26D2C61900E3B2EE /* Metropolis-Bold.otf */,
 				D0A445B026D2C62C00E3B2EE /* Metropolis-Medium.otf */,
+				D0A445BF26E1586100E3B2EE /* MapView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -339,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04504E226CDB6BF004150EC /* Onboarding.swift in Sources */,
+				D0A445C026E1586100E3B2EE /* MapView.swift in Sources */,
 				D0A445BA26D418EA00E3B2EE /* HomeView.swift in Sources */,
 				D04504CF26BAFB01004150EC /* Content.swift in Sources */,
 				D04504CD26BAFB01004150EC /* PurePastryApp.swift in Sources */,
@@ -351,6 +356,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04504E326CDB6BF004150EC /* Onboarding.swift in Sources */,
+				D0A445C126E1586100E3B2EE /* MapView.swift in Sources */,
 				D0A445BB26D418EA00E3B2EE /* HomeView.swift in Sources */,
 				D04504D026BAFB01004150EC /* Content.swift in Sources */,
 				D04504CE26BAFB01004150EC /* PurePastryApp.swift in Sources */,

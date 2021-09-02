@@ -30,7 +30,11 @@ struct ContentView: View {
                     Image(systemName: "bookmark")
                     Text("menu")
                 }
-            Text("Map")
+            GeometryReader { proxy in
+                MapView()
+                    .frame(width: proxy.size.width, height: proxy.size.height, alignment: .center)
+                
+            }
                 .tabItem {
                     Image(systemName: "map")
                     Text("map")
